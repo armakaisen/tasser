@@ -1,0 +1,151 @@
+/* #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center; 
+}*/
+
+
+/* body {
+    background-image: url(./style/img/pexels-felixmittermeier-956999.jpg);
+    background-color: rgb(28, 28, 71);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body {
+    background-color: lighblue;
+    /* background-image: linear-gradient(white, lightblue); */
+    /* background-image: linear-gradient(rgb(197, 205, 212), rgb(58, 85, 160)); */
+    background-image: linear-gradient(rgb(196, 223, 247), rgb(58, 85, 160));
+    /* height: 2000px; */
+}
+
+.imagen-cabecera-div {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al tamaño del div */
+    height: 100%;
+    /* Ajusta la altura de la imagen al tamaño del div */
+    background-image: url(./style/img/pexels-felixmittermeier-956999.jpg);
+    /* Reemplaza "tu_ruta_de_la_imagen.jpg" por la ruta de tu imagen */
+    background-position: center;
+    /* Alinea la imagen al centro del div */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el div */
+}
+
+#cabecera-div {
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 10px;
+    background: url(./style/img/pexels-felixmittermeier-956999.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.gradiente {
+    height: 2000px;
+    background-color: lighblue;
+    background-image: linear-gradient(white, lightblue);
+}
+
+.principal {
+    background-image: url(./style/img/pexels-felixmittermeier-956999.jpg);
+    /* background-color: rgb(28, 28, 71); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.logo_portada {
+    width: 10%;
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+    /*    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;*/
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+
+/*mediante CHAGPT*/
+
+.minavbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.minavbar li {
+    float: left;
+    margin-right: 20px;
+}
+
+.minavbar li:hover {
+    color: #5236f0;
+}
+
+
+/* Cambiar el color del texto de los enlaces */
+
+.minavbar a {
+    /* color: rgb(255, 255, 255); */
+    /* Color del texto del enlace */
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.minavbar a:hover {
+    color: #5236f0;
+    font-size: 20px;
+    /* Color del texto al pasar el mouse por encima */
+}
+
+.texto_nav_over.tasser:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.tasser:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
